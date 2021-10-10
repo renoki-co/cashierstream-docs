@@ -1,5 +1,7 @@
 # ⏫ Upgrading from 4.x
 
+###
+
 ### Authorization
 
 You may configure the authorization validation for your users when accessing the portal. [Read the documentation about authorization](usage/authorization.md).
