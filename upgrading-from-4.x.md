@@ -1,6 +1,22 @@
 # ⏫ Upgrading from 4.x
 
-###
+### Livewire
+
+This version now has Livewire support thanks to [Atila Silva's Pull Request](upgrading-from-4.x.md#install-command).
+
+### Install Command
+
+Livewire was freshly introduced to this version and specifying the stack is no longer needed. The package will use the `jetstream.php`'s `stack` value to determine what to install, so it's important to install Jetstream and publish Jetstream assets before diving in and installing Cashierstream.
+
+The command no longer needs the stack argument, so you can directly install the Cashier stack:
+
+```bash
+# Old behavior
+php artisan billing-portal:install inertia stripe
+
+# Current behavior
+php artisan billing-portal:install stripe
+```
 
 ### Authorization
 
