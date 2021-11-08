@@ -1,6 +1,6 @@
 # ✨ Custom Actions
 
-Even if the scaffolding comes with basic controller logic to handle new subscriptions or manage existing ones, you are free to change the Billing Portal's actions in `app/Actions/BillingPortal`. 
+Even if the scaffolding comes with basic controller logic to handle new subscriptions or manage existing ones, you are free to change the Billing Portal's actions in `app/Actions/BillingPortal`.&#x20;
 
 You just have to re-write your logic in the action methods and Cashierstream will automatically handle it for you.
 
